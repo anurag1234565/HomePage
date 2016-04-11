@@ -13,46 +13,68 @@
         }
         .input
         {
-            margin-top:10px;
-            margin-bottom:10px;
-            width:250px;
-            height:40px;
+            margin-top:0.5em;
+            margin-bottom:0.5em;
+            width:15em;
+            height:3em;
         }
         .submit
         {
-            margin-top:10px;
-            margin-bottom:10px;
-            height:40px;
-            width:40px;
+            margin-top:0.5em;
+            margin-bottom:0.5em;
+            height:3em;
+            width:4.2em;
         }
         
         .tabs
         {
-            margin-top:15px;
-            margin-bottom:10px;
-            height:100px;
+            margin-top:0.5em;
+            margin-bottom:0.5em;
+            height:1.6em;
             width:100%;
         }
         
         .tabholder
         {
-            margin-left: 20px;
-            margin-right: 10px;
+            margin-left: 1em;
+            margin-right: 1em;
             width:20%;
+        }
+        
+        .wide
+        {
+            width:50%
+        }
+        
+        @media only screen and (max-width: 1322px) and (min-width:943px)
+        {
+            .wide
+            {
+                width:70%;   
+            }
+        }
+        
+        
+        @media only screen and (max-width: 942px)
+        {
+            .wide
+            {
+                width:100%;   
+            }
         }
         
     </style>
   </head>
   <body class="w3-padding-128 ">
       
-      <div class="w3-sand w3-opacity w3-card w3-round-xlarge" style="width:50%;margin:auto; height:4em;"><!--Search Section-->
+      <div class="w3-sand w3-opacity w3-card wide w3-round-xlarge" style="margin:auto; height:4em;"><!--Search Section-->
           
-        <div class="w3-col" style="width:50%"><!-- DuckDuckGo SearchBox-->
-            <iframe src="https://duckduckgo.com/search.html?width=180&duck=yes&prefill=Search DuckDuckGo&focus=yes" style="overflow:hidden;margin:0;padding:0;width:333px;height:60px;" frameborder="0"></iframe>
+        <div class="w3-col " style="width:50%" ><!-- DuckDuckGo SearchBox-->
+            <iframe src="https://duckduckgo.com/search.html?width=180&duck=yes&prefill=Search DuckDuckGo&focus=yes" style="overflow:hidden;margin:0;padding:0;width:21em;height:3.9em;" frameborder="0"></iframe>
         </div><!-- / DuckDuckGo Searchbox -->
           
           
-        <div class="w3-col" style="width:50%"><!-- Wikipedia SearchBox-->
+        <div class="w3-col " style="width:50%"><!-- Wikipedia SearchBox-->
             <form action="http://www.wikipedia.org/search-redirect.php" id="1" method="get">      
                 <i class="fa w3-xlarge fa-wikipedia-w"></i>
                 <input type="hidden" name="language" value="en" />
@@ -65,8 +87,8 @@
       
       <br />
       
-      <div class="w3-sand w3-opacity w3-card w3-round-xlarge" style="width:50%;margin:auto;min-height:20em;"><!-- Tabs -->
-      
+      <div class="w3-sand w3-opacity w3-card wide w3-round-xlarge" style="margin:auto;min-height:20em;"><!-- Tabs -->
+          &nbsp;      
           <div class="w3-col tabholder "><!-- col1 --> 
               <button class="fa fa-facebook w3-hover-blue w3-round-large tabs w3-xxxlarge" onclick="window.location = 'http://facebook.com'"><!--facebook --></button>
               <div class="w3-center"><b>Facebook</b></div>
@@ -105,7 +127,7 @@
           
           
           
-          
+          &nbsp;
       </div><!-- /tabs-->
       
   </body>
