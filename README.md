@@ -56,4 +56,7 @@ A home page for your browser.<< Minimum screen width 630 px>>
               ('image',15);
       ```
       
+  4.Now extract the files in ```/var/www/html``` and rename the folder name to ```homepage```
   
+  
+ 
