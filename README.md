@@ -16,6 +16,7 @@ A home page for your browser.<< Minimum screen width 630 px>>
     ```
        sudo apt-get install apache2 php mysql-server mysql-client
     ```
+  <br>
   2.Download the zip file from the latest releases.
 
   
