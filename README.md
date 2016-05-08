@@ -40,11 +40,12 @@ A home page for your browser.<< Minimum screen width 630 px>>
   
   &nbsp;&nbsp;-Now insert some data into these tables:<br>
       ```
-        mysql> INSERT INTO properties
-              (type , value)
-              VALUES 
+        mysql> INSERT INTO properties\n
+              (type , value)\n
+              VALUES\n 
               ('background','images/image1.jpg');
       ```
+  <br>
       ```
         mysql> INSERT INTO images
               (type , number)
