@@ -64,7 +64,8 @@ A home page for your browser.<< Minimum screen width 630 px>>
     <br>
     ```
        $conn = mysql_connect('localhost','db_user','db_password') or die("CONNECTION PROBLEM");
-    ```
+    ```<br>
+  
   6.Now in your browser browse to ```localhost/homepage```. My homepage should appear.
   
 
