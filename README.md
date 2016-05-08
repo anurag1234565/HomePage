@@ -33,7 +33,7 @@ A home page for your browser.<< Minimum screen width 630 px>>
       ``` mysql> CREATE TABLE properties (type VARCHAR(10) , value VARCHAR(20));```
   <br>
     
-  -Also another table named ```images``` with two columns  ```type VARCHAR(10)``` and ``` number NUM ```
+  &nbsp;&nbsp;-Also another table named ```images``` with two columns  ```type VARCHAR(10)``` and ``` number NUM ```
   <br>
       ```mysql> CREATE TABLE images (type VARCHAR(10) , number NUM;```
     <br>
