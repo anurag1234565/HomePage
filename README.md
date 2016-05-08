@@ -18,6 +18,11 @@ A home page for your browser.<< Minimum screen width 630 px>>
        sudo apt-get install apache2 php mysql-server mysql-client
     ```</p>
   
-  2.Download the zip file from the latest release.
+  2.Download the zip file from the latest release.<br>
+  
+  3.Create a database named 'homepage'. 
+    ```sql
+       mysql> CREATE DATABASE homepage;
+    ```  
 
   
