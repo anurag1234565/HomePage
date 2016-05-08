@@ -20,9 +20,9 @@ A home page for your browser.<< Minimum screen width 630 px>>
   
   2.Download the zip file from the latest release.<br>
   
-  3.Create a database named 'homepage'. 
-    ```sql
+  3.Create a database named 'homepage'.<br> 
+      ```
        mysql> CREATE DATABASE homepage;
-    ```  
+      ```  
 
   
