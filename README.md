@@ -61,7 +61,7 @@ A home page for your browser.<< Minimum screen width 630 px>>
   5.Lastly, You need to edit some files so that they can read your database.
     &nbsp; In files ```index.php``` ,```upload.php``` and  ``` changebackground/index.php```<br>
     replace ```db_user``` by your username and ```db_password``` by your password.
-    ```php
+    ```
        $conn = mysql_connect('localhost','db_user','db_password') or die("CONNECTION PROBLEM");
     ```
   
