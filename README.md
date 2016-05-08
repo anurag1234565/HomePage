@@ -28,10 +28,11 @@ A home page for your browser.<< Minimum screen width 630 px>>
        mysql> USE homepage;
       ```<br>  
    -Now create tables named ```properties``` with two columns ``` type VARCHAR(10)``` and ```value VARCHAR(20)``` 
-     <br> 
+  <br> 
      ``` mysql> CREATE TABLE properties (type VARCHAR(10) , value VARCHAR(20));```
-    <br>
+  <br>
     
-    -Also another table named ```images``` with two columns  ```type VARCHAR(10)``` and ``` number NUM ```<br>
+  -Also another table named ```images``` with two columns  ```type VARCHAR(10)``` and ``` number NUM ```
+  <br>
       ```mysql> CREATE TABLE images (type VARCHAR(10) , number NUM;```
     <br>
