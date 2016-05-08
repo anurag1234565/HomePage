@@ -40,7 +40,7 @@ Check out live <a href="http://anurag1234565.github.io/HomePage">here</a>
     
   &nbsp;&nbsp;-Also another table named ```images``` with two columns  ```type VARCHAR(10)``` and ``` number NUM ```
   <br>
-      ```mysql> CREATE TABLE images (type VARCHAR(10) , number NUM};```
+      ```mysql> CREATE TABLE images (type VARCHAR(10) , number NUM);```
     <br>
   
   &nbsp;&nbsp;-Now insert some data into these tables:<br>
