@@ -3,7 +3,7 @@
 # About
 A home page for your browser.<< Minimum screen width 630 px>>
 
-Checkout live <a  href="http://anurag1234565.github.io/HomePage" target="_blank">here</a>
+Checkout live <a  href="http://anurag1234565.github.io/HomePage" >here</a>
 
 # Requirements
   
