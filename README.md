@@ -26,6 +26,9 @@ A home page for your browser.<< Minimum screen width 630 px>>
   <br> 
       ```
        mysql> CREATE DATABASE homepage;
+       ```
+  <br>
+      ```
        mysql> USE homepage;
       ```<br>  
    &nbsp;&nbsp;-Now create tables named ```properties``` with two columns ``` type VARCHAR(10)``` and ```value VARCHAR(20)``` 
@@ -40,9 +43,9 @@ A home page for your browser.<< Minimum screen width 630 px>>
   
   &nbsp;&nbsp;-Now insert some data into these tables:<br>
       ```
-        mysql> INSERT INTO properties\n
-              (type , value)\n
-              VALUES\n 
+        mysql> INSERT INTO properties
+              (type , value)
+              VALUES 
               ('background','images/image1.jpg');
       ```
   <br>
