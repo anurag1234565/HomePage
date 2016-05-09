@@ -62,7 +62,7 @@ Checkout live <a  href="http://anurag1234565.github.io/HomePage" >here</a>
   
   5.Lastly, You need to edit some files so that they can read your database.
     &nbsp; In files ```index.php``` ,```upload.php``` and  ``` changebackground/index.php```<br>
-    replace ```db_user``` by your username and ```db_password``` by your password.
+    replace ```db_user``` by  user and ```db_password``` by password of your database user.
     <br>
     ```
        $conn = mysql_connect('localhost','db_user','db_password') or die("CONNECTION PROBLEM");
