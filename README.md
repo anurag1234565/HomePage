@@ -23,7 +23,7 @@ Checkout live <a  href="http://anurag1234565.github.io/HomePage" >here</a>
   2.Download the zip file from the latest release.<br>
   
   3.Managing Databases<br>
-  &nbsp;&nbsp;(If you are not comfortable with these commands you can use phpMyadmin and do as below in gui.)<br> 
+  &nbsp;&nbsp;(If you are not comfortable with these commands you can use phpMyadmin and do as below in GUI.)<br> 
    &nbsp;&nbsp;-Create a database named ```homepage```.
   <br> 
       ```
