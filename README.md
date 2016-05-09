@@ -69,7 +69,7 @@ Checkout live <a  href="http://anurag1234565.github.io/HomePage" >here</a>
     ```<br>
   
   6.Now in your browser browse to ```localhost/homepage```. My homepage should appear.
-  <br>
+  <br><br>
   7.To confirm you can upload photos change mode of images to 777
   ```
     chmod 777 -R images/
