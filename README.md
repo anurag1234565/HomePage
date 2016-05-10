@@ -68,7 +68,7 @@ Checkout live <a  href="http://anurag1234565.github.io/HomePage" >here</a>
        $conn = mysql_connect('localhost','db_user','db_password') or die("CONNECTION PROBLEM");
     ```<br>
   
-  6.Now in your browser browse to ```localhost/homepage```. My homepage should appear.
+  6.Now in your browser browse to ```localhost/homepage```. The homepage should appear.
   <br><br>
   7.To confirm you can upload photos change mode of images to 777
   ```
